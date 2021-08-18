@@ -1,6 +1,8 @@
 <?php
 
-use Alura\Cursos\Controller\{Deslogar,
+use Alura\Cursos\Controller\{CursosEmJson,
+    CursosEmXml,
+    Deslogar,
     ExclusaoCurso,
     FormularioEdicao,
     FormularioInsercao,
@@ -19,7 +21,9 @@ $rotas = [
     '/editar-curso' => FormularioEdicao::class,
     '/login' => FormularioLogin::class,
     '/realiza-login' => RealizarLogin::class,
-    '/logout' => Deslogar::class
+    '/logout' => Deslogar::class,
+    '/buscar-cursos-json' => CursosEmJson::class,
+    '/buscar-cursos-xml' => CursosEmXml::class,
 ];
 
 return $rotas;
