@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="27ad19b7-0bbe-42ec-ab4d-d83beb82e2b2" name="Localhost" url="http://localhost:3000">
+        <fileTransfer mountedRoot="C:\Users\Joao\Documents\ALURA\MVC-2" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
